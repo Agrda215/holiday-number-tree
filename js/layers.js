@@ -27,6 +27,11 @@ addLayer("h1", {
         title:"Holiday 1 Production",
         description:"Start gaining points.",
         cost:new ExpantaNum(1)
-      }
+      },
+      12:{
+        title:"Which Gain",
+        description:"get log2(point) gain.",
+        cost:new ExpantaNum(5)
+      },
     }
 })

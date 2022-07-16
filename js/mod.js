@@ -42,6 +42,7 @@ function getPointGen() {
 		return new ExpantaNum(0)
 
 	let gain = new ExpantaNum(1)
+  if(hasUpgrade("h1", 12)) gain = gain.times(player.points.add(2).log(2))
 	return gain
 }
 
